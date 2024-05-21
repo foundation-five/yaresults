@@ -1,1 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMMA Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fff;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            background-color: #000;
+            padding: 10px 0;
+        }
+        header img {
+            height: 50px;
+        }
+        .hero {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero h1 {
+            color: #000;
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            color: #666;
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 50px 20px;
+        }
+        .feature {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+        }
+        .feature h3 {
+            color: #000;
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+        .feature p {
+            color: #666;
+            font-size: 1em;
+            margin: 0;
+        }
+        .contact {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .contact h2 {
+            color: #000;
+            font-size: 2em;
+            margin: 0 0 20px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .contact form input,
+        .contact form textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            font-size: 1em;
+        }
+        .contact form button {
+            padding: 10px;
+            border: none;
+            background-color: #e60000;
+            color: #fff;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
 
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="SMMA Logo">
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Our SMMA</h1>
+            <p>Your success is our mission. Let us help you grow your online presence.</p>
+        </div>
+    </section>
+
+    <section class="features container">
+        <div class="feature">
+            <h3>Feature 1</h3>
+            <p>Detail about feature 1</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 2</h3>
+            <p>Detail about feature 2</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 3</h3>
+            <p>Detail about feature 3</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 4</h3>
+            <p>Detail about feature 4</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SMMA. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
